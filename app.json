@@ -1,0 +1,28 @@
+{
+  "expo": {
+    "name": "DoaDog",
+    "slug": "doadog",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/logo/logo-doadog.png",
+    "userInterfaceStyle": "light",
+    "android": {
+      "package": "com.doadog.app",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/logo/logo-doadog.png",
+        "backgroundColor": "#FEF8E8"
+      }
+    },
+    "web": {
+      "favicon": "./assets/logo/logo-doadog.png"
+    },
+    "plugins": [
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "O DoaDog usa a galeria para colocar a foto do cão no cadastro."
+        }
+      ]
+    ]
+  }
+}
